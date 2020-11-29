@@ -223,32 +223,74 @@ footer{
 
     .container-main {
         background-color: white;
+        width: 97%;
     }
 
     .col {
         width: 33.33%;
+        height: 425px;
     }
 
-    .container-main{
-        width: 97%;
-
-     }
+    .project-content {
+        padding-bottom: 0;
+    }
 
     .container{
         width: 92%;
     }
 
+    .container-main img{
+        width: 95%;
+     }
+
     .desktop-view-container{
         display: flex;
         justify-content: space-between;
+        padding-top: 1em;
     }
 
     .name{
         display: inline-block;
     }
 
-    .main-nav{
-        display: inline-block;
+    .main-nav li{
+        width: 33.33%;
+    }
+    
+    .main-nav {
+        width: 40%;
+        margin: .67em 0;
+    }
+
+    .profile-img{
+        padding-right: 2.5em;
+    }
+
+    .container p{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .contact-me{
+        padding-bottom: 2em;
+    }
+
+    .phone {
+        padding-bottom: .75em;
+    }
+
+    .name-footer{
+        padding-left: 3%;
+    }
+    .main-nav-footer{
+        padding-right: 3%;
+    }
+
+}
+
+@media(min-width: 1440px){
+    .col {
+        height: 500px;
     }
 }
 
