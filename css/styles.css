@@ -105,14 +105,21 @@ footer{
 .name-footer{
     display: inline-block;
     color: #4d4c4c;
+    padding-bottom: 1.5em;
 }
+
+.name-footer{
+    padding-left: 1.25em;
+}
+
 
 .back-to-top a{
     text-decoration: none;
     color:  #4d4c4c;
+    padding-right: 1.25em;
 }
 
-.footer-nav-containter{
+.footer-nav-container{
     display: flex;
     justify-content: space-between;
 }
@@ -136,6 +143,7 @@ footer{
     }
 
     .introduction {
+        margin-top: 0;
         float: left;
         width: 60%;
         text-align: left;
@@ -146,12 +154,16 @@ footer{
     .profile-img{
         float: right;
         width: 40%;
-        margin-top: 48px;
     }
 
     .main-nav{
         text-align: center;
     }
+
+    .container-main{
+        width: 91%;
+
+     }
 
     .clearfix::after {
 		content: " ";
@@ -160,7 +172,7 @@ footer{
     }
 
     header{
-        padding-bottom: 3em;
+        padding-bottom: 1.5em;
     }
 
     .col {
@@ -168,14 +180,76 @@ footer{
         width: 50%;
     }
 
+    hr {
+        margin-top: 3.5em;
+    }
 
+    .back-to-top{
+        display: none;
+    }
 
+    .main-nav-footer{
+        display: block;
+        padding-right: 1em;
+    }
+
+    .main-nav-footer li{
+        display: inline-block;
+        font-weight: bold;
+        margin-right: -2px;
+        padding-right: 1em;
+        color: #4d4c4c;
+    }
+
+    .name-footer{
+        margin-top: 0;
+    }
+
+    .container-main img{
+        width: 96.5%;
+     }
+    
+
+    
 }
 
 
 
 
 @media(min-width: 1024px){
+    body {
+        background-color: #f5f4f4;
+    }
 
+    .container-main {
+        background-color: white;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+
+    .container-main{
+        width: 97%;
+
+     }
+
+    .container{
+        width: 92%;
+    }
+
+    .desktop-view-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name{
+        display: inline-block;
+    }
+
+    .main-nav{
+        display: inline-block;
+    }
 }
+
 
