@@ -124,6 +124,22 @@ footer{
     justify-content: space-between;
 }
 
+/********* Skill section **************/
+.skills {
+    background-color:#dee0eb ;
+    padding-top: 2em;
+    color: #838383;
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+
+.skills h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #4d4c4c;
+
+
+}
 
 
 
@@ -180,7 +196,7 @@ footer{
         width: 50%;
     }
 
-    hr {
+    .footer-hr{
         margin-top: 3.5em;
     }
 
